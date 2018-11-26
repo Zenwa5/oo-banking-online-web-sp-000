@@ -20,6 +20,5 @@ class BankAccount
 
   def deposit
   @assets + @balance
-  @balance
   end
 end
