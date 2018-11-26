@@ -18,7 +18,7 @@ class BankAccount
     @status
   end
 
-  def deposit
+  def deposit(assets)
     
   end
 end
