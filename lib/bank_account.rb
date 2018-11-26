@@ -7,7 +7,7 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
-    @assets = assets
+  
   end
 
   def balance
@@ -19,7 +19,7 @@ class BankAccount
   end
 
   def deposit(assets)
-    @balance + @assets
+    @balance += assets
     @balance
   end
 end
